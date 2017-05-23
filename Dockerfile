@@ -11,4 +11,4 @@ RUN bundle install
 
 ADD . /myapp
 
-CMD ["bundle", "exec", "rails", "server"]
+CMD ["bundle", "exec", "rails", "s", "-b", "0.0.0.0"]

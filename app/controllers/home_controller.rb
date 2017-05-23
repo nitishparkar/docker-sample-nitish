@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
   def home
-    render json: "Goodbye, #{ENV['NAME']}!"
+    render json: "Hello, #{ENV['NAME']}!"
   end
 end
